@@ -1,0 +1,169 @@
+body {
+    background-image: linear-gradient(to top right, #42d9ff,
+            #281bde);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid none;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    top: 80px;
+    left: 35%;
+    height: 600px;
+    width: 500px;
+
+
+}
+
+.firstheading {
+    position: absolute;
+    bottom: 500px;
+    text-transform: capitalize;
+    font-weight: 700;
+    left: 39%;
+
+
+}
+
+.detailsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    margin-top: 70px;
+
+}
+
+.detailsection .mail {
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+
+.mail::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.detailsection .pass {
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+}
+
+.pass::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.buttonsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    text-transform: capitalize;
+}
+
+.buttonsection .log {
+    padding: 15px 10px;
+    width: 350px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-color: #3a86ff;
+    border: 1px solid white;
+
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+
+.separation {
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20px;
+
+}
+
+.connect .facebook {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    white-space: nowrap;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: 0.3s;
+
+
+
+}
+
+.logoname1 {
+    position: relative;
+    right: 100px;
+    text-transform: capitalize;
+
+}
+
+.connect .facebook:hover {
+    background-color: #023e8a;
+    color: white;
+}
+
+.connect .google {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    white-space: nowrap;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: 0.3s;
+
+
+
+}
+
+.logoname2 {
+    position: relative;
+    right: 155px;
+    text-transform: capitalize;
+
+}
+
+.connect .google:hover {
+    background-color: #023e8a;
+    color: white;
+}
